@@ -168,12 +168,12 @@
 		"outerColor": [166, 22, 51],
 		"innerColor": [75, 156, 245],
 		"uniqueName": "Worship of the Old Gods",
-		"uniques": ["[+1 Faith] [in all cities] <before the [Medieval era]>"]
+		"uniques": ["[+1 Faith] [in all cities] <before the [Medieval era]>"],
 		"cities": ["Vilnius","Kaunas","Klaipeda","Kernave","Siauliai","Trakai","Panevezys","Kedainiai","Voruta","Prienai",
 			"Utena","Alytus","Birzai","Marijamopole","Taurage","Birstonas","Jonava","Mazeikiai","Ukmerge","Kedainiai",
 			"Telsiai","Plunge","Kretinga","Gargzdai","Raseiniai","Joniskis","Anyksciai","Skuodas"]
 	},
-		{
+	{
 		"name": "Ireland",
 		"leaderName": "Tairrdelbach Ua Conchobair",
 		"adjective": ["Irish"],
@@ -205,8 +205,7 @@
 		"uniques": ["Each city founded increases culture cost of policies [17]% less than normal","[-1 Happiness] [in all cities]"],
 		"cities": ["Dublin","Cork","Downpatrick","Tipperary","Trim","Limerick","Kilkenny","Belfast","Galway","Lucan","Newry","Lifford","Tallaght","Armagh","Waterford","An Uaimh"],
 	},
-
-		{
+	{
 		"name": "Tibet",
 		"leaderName": "Songtsen Gampo",
 		"adjective": ["Tibetan"],
@@ -240,7 +239,7 @@
 		"cities": ["Lhasa","Xigaze","Gyantse","Chamdo","Gyegu","Rutog","Nyingchi","Nedong","Tingri","Leh","Senggezangbo","Nagchukha",
 		"Coqen","Lhatse","Tawang","Ladakh","Batang"]
 	},
-		{
+	{
 		"name": "Bulgaria",
 		"leaderName": "Simeon",
 		"adjective": ["Bulgarian"],
@@ -273,9 +272,8 @@
 		"uniques": ["[+3 Science, +3 Culture] [in capital] <after discovering [Writing]>"],
 		"cities": ["Pliska","Tarnovo","Nesebar","Sofia","Vidin","Skopje","Beroe","Plovdiv","Varna","Cherven","Debelt","Melnik","Preslavec",
 		"Silistra","Markeli","Balgrad","Mis","Serres","Kalfa"]
-		
 	},
-			{
+	{
 		"name": "Norway",
 		"leaderName": "Harald Hardrada",
 		"adjective": ["Norwegian"],
@@ -341,7 +339,7 @@
 		"uniques": ["[+15]% [Gold] [in all cities connected to capital]","[+15]% [Science] <during the [Medieval era]>"],
 		"cities": ["Genoa","Ajaccio","Costanza","Albenga","Monaco","Savona","San Remo","Laiazzo","Giaffa","Basta","Porto-Vecchio","Sassari","Alghero","Nuoro","Olbia","Bonifacio"]
 	},
-				{
+	{
 		"name": "Papal States",
 		"leaderName": "Pope Innocent III",
 		"adjective": ["Papal"],
@@ -351,11 +349,11 @@
 		"startIntroPart1": "Blessings upon His Holiness, Pope Innocent III, sovereign of the Papal States. As the Catholic Church's most powerfull Pontiff, you reigned supreme over the crowned heads of Europe. Rooting out heresy wherever it dwelt, you presided over the Churches' most important reforms as well as her most infamous crusades. Commanding the Christian faith with diplomatic skill and political acumen, you papacy would mark the height of its power on earth.",
 		"startIntroPart2": "Your Holiness, the kingdom of God beckons you once more. Her loyal crusaders ready their swords and await your command. Can you lead the Church in these trying times? Can you ensure its teachings are spread across the world? Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": "It is the time you should learn the God's will. There is no place for heresy!",
-		"attacked": "I excommunicate you, burn in hell!",
-		"defeated": "If that's the Lord's will, I must accept it!",
-		"introduction": "Welcome, I am Innocent III, the disciple of Christ and apostolic succesor to Saint Peter.",
-		
+		"declaringWar": "We decree that those who give credence to the teachings of the heretics, as well as those who receive, defend, and patronize them, are excommunicated.",
+		"attacked": "At home, a great heresy rears itself. These heretics we cannot tolerate, and we call upon all able-bodied servants to eliminate this threat wherever it may hide.",
+		"defeated": "Alas, I fear that with this defeat the holy land will be lost to the heathens...",
+		"introduction": "Welcome, faithful one. I am Innocent III. I can already tell that, together, we will drive back the heathens and bring about everlasting peace on earth.",
+
 		"neutralHello": "Greetings.",
 		"neutralLetsHearIt": ["Yes.","Speak."],
 		"neutralNo": ["No.","Unacceptable."],
@@ -371,9 +369,13 @@
 		"outerColor": [128, 8, 0],
 		"innerColor": [255, 204, 0],
 		"uniqueName": "Deus Vult",
-		"uniqueText": "Land units may move immediately once bought. Receive free Shrine in capital at the beginning of the game and then in each of your cities after researching Philosophy. Receive a free Temple after researching Education",
-		"uniques": ["[Land] units gain the [Crusader] promotion","Gain a free [Shrine] [in capital]","Gain a free [Shrine] [in all cities] <after discovering [Philosophy]>","Gain a free [Temple] [in all cities] <after discovering [Education]>"],
-		"cities": ["Roma","Benevento","Ravenna","Avignon","Bologna","Ponte Corvo","Ferrara","Ascoli","Camerino","Rieti","Assisi","Orvieto","Rimini","Todi","Viterbo"]
-	},
-
+		"uniqueText": "Land units may move immediately once bought. Receive a free Shrine in the capital at the beginning of the game and then in each of your cities after researching Philosophy. Receive a free Temple in each of your cities after researching Education.",
+		"uniques": ["[Land] units gain the [Crusader] promotion",
+			"Gain a free [Shrine] [in capital]",
+			"Gain a free [Shrine] [in all cities] <after discovering [Philosophy]>",
+			"Gain a free [Temple] [in all cities] <after discovering [Education]>"],
+		"cities": ["Roma", "Benevento", "Pontecorvo", "Ravenna", "Avignon", "Bologna", "Castel Gandolfo", "Ascoli", "Ferrara", "Perugia",
+			"Civitavecchia", "Camerino", "Rieti", "Assisi", "Orvieto", "Sinigaglia", "Ancona", "Pesaro", "Rimini", "Todi", "Viterbo", "Urbino",
+			"Gubbio", "Fermo", "Velletri", "San Marino", "Carpentras"]
+	}
 ]
